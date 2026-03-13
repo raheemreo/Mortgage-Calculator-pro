@@ -7,7 +7,7 @@
    "loan_types":["30-Year Fixed","15-Year Fixed","Refinance"],
    "rate_adjustment":0.00,
    "apr_adjustment":0.05,
-   "estimated_fees":2100.
+   "estimated_fees":2100,
    "closing_costs": 5800
   },
   {
