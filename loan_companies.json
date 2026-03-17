@@ -1,0 +1,289 @@
+{
+  "loan_companies": [
+    {
+      "name": "Rocket Mortgage",
+      "type": "Mortgage Lender",
+      "website": "https://www.rocketmortgage.com",
+      "logo": "https://logo.clearbit.com/rocketmortgage.com",
+      "loan_types": ["Mortgage", "Refinance", "FHA", "VA"],
+      "headquarters": "Detroit, Michigan"
+    },
+    {
+      "name": "United Wholesale Mortgage",
+      "type": "Mortgage Lender",
+      "website": "https://www.uwm.com",
+      "logo": "https://logo.clearbit.com/uwm.com",
+      "loan_types": ["Mortgage", "Refinance"],
+      "headquarters": "Pontiac, Michigan"
+    },
+    {
+      "name": "LoanDepot",
+      "type": "Mortgage Lender",
+      "website": "https://www.loandepot.com",
+      "logo": "https://logo.clearbit.com/loandepot.com",
+      "loan_types": ["Mortgage", "Refinance", "Personal"],
+      "headquarters": "Irvine, California"
+    },
+    {
+      "name": "Better Mortgage",
+      "type": "Online Mortgage",
+      "website": "https://better.com",
+      "logo": "https://logo.clearbit.com/better.com",
+      "loan_types": ["Mortgage", "Refinance"],
+      "headquarters": "New York, NY"
+    },
+    {
+      "name": "SoFi",
+      "type": "Fintech Lender",
+      "website": "https://www.sofi.com",
+      "logo": "https://logo.clearbit.com/sofi.com",
+      "loan_types": ["Personal", "Student", "Mortgage"],
+      "headquarters": "San Francisco, California"
+    },
+    {
+      "name": "LightStream",
+      "type": "Personal Loan",
+      "website": "https://www.lightstream.com",
+      "logo": "https://logo.clearbit.com/lightstream.com",
+      "loan_types": ["Personal", "Auto", "Home Improvement"],
+      "headquarters": "Atlanta, Georgia"
+    },
+    {
+      "name": "Marcus by Goldman Sachs",
+      "type": "Personal Loan",
+      "website": "https://www.marcus.com",
+      "logo": "https://logo.clearbit.com/marcus.com",
+      "loan_types": ["Personal", "Debt Consolidation"],
+      "headquarters": "New York, NY"
+    },
+    {
+      "name": "Upstart",
+      "type": "AI Lending Platform",
+      "website": "https://www.upstart.com",
+      "logo": "https://logo.clearbit.com/upstart.com",
+      "loan_types": ["Personal", "Auto"],
+      "headquarters": "San Mateo, California"
+    },
+    {
+      "name": "LendingClub",
+      "type": "Peer to Peer Lending",
+      "website": "https://www.lendingclub.com",
+      "logo": "https://logo.clearbit.com/lendingclub.com",
+      "loan_types": ["Personal", "Business"],
+      "headquarters": "San Francisco, California"
+    },
+    {
+      "name": "Prosper",
+      "type": "Peer Lending",
+      "website": "https://www.prosper.com",
+      "logo": "https://logo.clearbit.com/prosper.com",
+      "loan_types": ["Personal"],
+      "headquarters": "San Francisco, California"
+    },
+
+    {
+      "name": "Bank of America",
+      "type": "Bank",
+      "website": "https://www.bankofamerica.com",
+      "logo": "https://logo.clearbit.com/bankofamerica.com",
+      "loan_types": ["Mortgage", "Auto", "Personal"],
+      "headquarters": "Charlotte, North Carolina"
+    },
+    {
+      "name": "Wells Fargo",
+      "type": "Bank",
+      "website": "https://www.wellsfargo.com",
+      "logo": "https://logo.clearbit.com/wellsfargo.com",
+      "loan_types": ["Mortgage", "Auto", "Personal"],
+      "headquarters": "San Francisco, California"
+    },
+    {
+      "name": "Chase Bank",
+      "type": "Bank",
+      "website": "https://www.chase.com",
+      "logo": "https://logo.clearbit.com/chase.com",
+      "loan_types": ["Mortgage", "Auto", "Personal"],
+      "headquarters": "New York, NY"
+    },
+    {
+      "name": "Citibank",
+      "type": "Bank",
+      "website": "https://www.citi.com",
+      "logo": "https://logo.clearbit.com/citi.com",
+      "loan_types": ["Mortgage", "Personal"],
+      "headquarters": "New York, NY"
+    },
+    {
+      "name": "PNC Bank",
+      "type": "Bank",
+      "website": "https://www.pnc.com",
+      "logo": "https://logo.clearbit.com/pnc.com",
+      "loan_types": ["Mortgage", "Auto", "Personal"],
+      "headquarters": "Pittsburgh, Pennsylvania"
+    },
+
+    {
+      "name": "Discover Personal Loans",
+      "type": "Personal Loan",
+      "website": "https://www.discover.com",
+      "logo": "https://logo.clearbit.com/discover.com",
+      "loan_types": ["Personal"],
+      "headquarters": "Riverwoods, Illinois"
+    },
+    {
+      "name": "Upgrade",
+      "type": "Fintech Lender",
+      "website": "https://www.upgrade.com",
+      "logo": "https://logo.clearbit.com/upgrade.com",
+      "loan_types": ["Personal", "Credit Line"],
+      "headquarters": "San Francisco, California"
+    },
+    {
+      "name": "Avant",
+      "type": "Personal Loan",
+      "website": "https://www.avant.com",
+      "logo": "https://logo.clearbit.com/avant.com",
+      "loan_types": ["Personal"],
+      "headquarters": "Chicago, Illinois"
+    },
+    {
+      "name": "OneMain Financial",
+      "type": "Consumer Loans",
+      "website": "https://www.onemainfinancial.com",
+      "logo": "https://logo.clearbit.com/onemainfinancial.com",
+      "loan_types": ["Personal", "Auto"],
+      "headquarters": "Evansville, Indiana"
+    },
+    {
+      "name": "Freedom Mortgage",
+      "type": "Mortgage Lender",
+      "website": "https://www.freedommortgage.com",
+      "logo": "https://logo.clearbit.com/freedommortgage.com",
+      "loan_types": ["Mortgage", "Refinance", "VA"],
+      "headquarters": "Mount Laurel, New Jersey"
+    },
+
+    {
+      "name": "Veterans United Home Loans",
+      "type": "VA Mortgage",
+      "website": "https://www.veteransunited.com",
+      "logo": "https://logo.clearbit.com/veteransunited.com",
+      "loan_types": ["VA Loan", "Mortgage"],
+      "headquarters": "Columbia, Missouri"
+    },
+    {
+      "name": "Guaranteed Rate",
+      "type": "Mortgage Lender",
+      "website": "https://www.rate.com",
+      "logo": "https://logo.clearbit.com/rate.com",
+      "loan_types": ["Mortgage", "Refinance"],
+      "headquarters": "Chicago, Illinois"
+    },
+    {
+      "name": "Newrez",
+      "type": "Mortgage Lender",
+      "website": "https://www.newrez.com",
+      "logo": "https://logo.clearbit.com/newrez.com",
+      "loan_types": ["Mortgage", "Refinance"],
+      "headquarters": "Fort Washington, Pennsylvania"
+    },
+    {
+      "name": "Flagstar Bank",
+      "type": "Mortgage Bank",
+      "website": "https://www.flagstar.com",
+      "logo": "https://logo.clearbit.com/flagstar.com",
+      "loan_types": ["Mortgage", "Refinance"],
+      "headquarters": "Troy, Michigan"
+    },
+    {
+      "name": "Caliber Home Loans",
+      "type": "Mortgage Lender",
+      "website": "https://www.caliberhomeloans.com",
+      "logo": "https://logo.clearbit.com/caliberhomeloans.com",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Dallas, Texas"
+    },
+
+    {
+      "name": "AmeriSave Mortgage",
+      "type": "Mortgage Lender",
+      "website": "https://www.amerisave.com",
+      "logo": "https://logo.clearbit.com/amerisave.com",
+      "loan_types": ["Mortgage", "Refinance"],
+      "headquarters": "Atlanta, Georgia"
+    },
+    {
+      "name": "Guild Mortgage",
+      "type": "Mortgage Lender",
+      "website": "https://www.guildmortgage.com",
+      "logo": "https://logo.clearbit.com/guildmortgage.com",
+      "loan_types": ["Mortgage"],
+      "headquarters": "San Diego, California"
+    },
+    {
+      "name": "Fairway Independent Mortgage",
+      "type": "Mortgage Lender",
+      "website": "https://www.fairwayindependentmc.com",
+      "logo": "https://logo.clearbit.com/fairwayindependentmc.com",
+      "loan_types": ["Mortgage", "Refinance"],
+      "headquarters": "Madison, Wisconsin"
+    },
+    {
+      "name": "CrossCountry Mortgage",
+      "type": "Mortgage Lender",
+      "website": "https://www.crosscountrymortgage.com",
+      "logo": "https://logo.clearbit.com/crosscountrymortgage.com",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Cleveland, Ohio"
+    },
+    {
+      "name": "Movement Mortgage",
+      "type": "Mortgage Lender",
+      "website": "https://www.movement.com",
+      "logo": "https://logo.clearbit.com/movement.com",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Fort Mill, South Carolina"
+    },
+
+    {
+      "name": "Figure Lending",
+      "type": "Home Equity Loans",
+      "website": "https://www.figure.com",
+      "logo": "https://logo.clearbit.com/figure.com",
+      "loan_types": ["HELOC"],
+      "headquarters": "San Francisco, California"
+    },
+    {
+      "name": "Earnest",
+      "type": "Student Loans",
+      "website": "https://www.earnest.com",
+      "logo": "https://logo.clearbit.com/earnest.com",
+      "loan_types": ["Student", "Refinance"],
+      "headquarters": "San Francisco, California"
+    },
+    {
+      "name": "CommonBond",
+      "type": "Student Loans",
+      "website": "https://www.commonbond.co",
+      "logo": "https://logo.clearbit.com/commonbond.co",
+      "loan_types": ["Student"],
+      "headquarters": "New York, NY"
+    },
+    {
+      "name": "Splash Financial",
+      "type": "Student Loans",
+      "website": "https://www.splashfinancial.com",
+      "logo": "https://logo.clearbit.com/splashfinancial.com",
+      "loan_types": ["Student"],
+      "headquarters": "Cleveland, Ohio"
+    },
+    {
+      "name": "Credible",
+      "type": "Loan Marketplace",
+      "website": "https://www.credible.com",
+      "logo": "https://logo.clearbit.com/credible.com",
+      "loan_types": ["Personal", "Student", "Mortgage"],
+      "headquarters": "San Francisco, California"
+    }
+  ]
+}
