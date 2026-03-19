@@ -1,904 +1,502 @@
-{
-  "insurance_companies": [
-    {
-      "id": 1,
-      "name": "State Farm",
-      "logo": "https://img.logo.dev/statefarm.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Bloomington, IL",
-      "rating": 4.8,
-      "website": "https://statefarm.com"
-    },
-    {
-      "id": 2,
-      "name": "GEICO",
-      "logo": "https://img.logo.dev/geico.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Chevy Chase, MD",
-      "rating": 4.7,
-      "website": "https://geico.com"
-    },
-    {
-      "id": 3,
-      "name": "Progressive",
-      "logo": "https://img.logo.dev/progressive.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Mayfield Village, OH",
-      "rating": 4.6,
-      "website": "https://progressive.com"
-    },
-    {
-      "id": 4,
-      "name": "Allstate",
-      "logo": "https://img.logo.dev/allstate.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Northbrook, IL",
-      "rating": 4.5,
-      "website": "https://allstate.com"
-    },
-    {
-      "id": 5,
-      "name": "Liberty Mutual",
-      "logo": "https://img.logo.dev/libertymutual.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Boston, MA",
-      "rating": 4.5,
-      "website": "https://libertymutual.com"
-    },
-    {
-      "id": 6,
-      "name": "Farmers Insurance",
-      "logo": "https://img.logo.dev/farmers.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Woodland Hills, CA",
-      "rating": 4.4,
-      "website": "https://farmers.com"
-    },
-    {
-      "id": 7,
-      "name": "Nationwide",
-      "logo": "https://img.logo.dev/nationwide.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Columbus, OH",
-      "rating": 4.4,
-      "website": "https://nationwide.com"
-    },
-    {
-      "id": 8,
-      "name": "American Family Insurance",
-      "logo": "https://img.logo.dev/amfam.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Madison, WI",
-      "rating": 4.3,
-      "website": "https://amfam.com"
-    },
-    {
-      "id": 9,
-      "name": "Travelers",
-      "logo": "https://img.logo.dev/travelers.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "New York, NY",
-      "rating": 4.4,
-      "website": "https://travelers.com"
-    },
-    {
-      "id": 10,
-      "name": "USAA",
-      "logo": "https://img.logo.dev/usaa.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "San Antonio, TX",
-      "rating": 4.8,
-      "website": "https://usaa.com"
-    },
-    {
-      "id": 11,
-      "name": "Chubb",
-      "logo": "https://img.logo.dev/chubb.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Zurich, Switzerland",
-      "rating": 4.5,
-      "website": "https://chubb.com"
-    },
-    {
-      "id": 12,
-      "name": "MetLife",
-      "logo": "https://img.logo.dev/metlife.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "New York, NY",
-      "rating": 4.4,
-      "website": "https://metlife.com"
-    },
-    {
-      "id": 13,
-      "name": "Prudential Financial",
-      "logo": "https://img.logo.dev/prudential.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Newark, NJ",
-      "rating": 4.4,
-      "website": "https://prudential.com"
-    },
-    {
-      "id": 14,
-      "name": "AIG",
-      "logo": "https://img.logo.dev/aig.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "New York, NY",
-      "rating": 4.3,
-      "website": "https://aig.com"
-    },
-    {
-      "id": 15,
-      "name": "Cigna",
-      "logo": "https://img.logo.dev/cigna.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Bloomfield, CT",
-      "rating": 4.3,
-      "website": "https://cigna.com"
-    },
-    {
-      "id": 16,
-      "name": "Humana",
-      "logo": "https://img.logo.dev/humana.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Louisville, KY",
-      "rating": 4.3,
-      "website": "https://humana.com"
-    },
-    {
-      "id": 17,
-      "name": "Anthem",
-      "logo": "https://img.logo.dev/anthem.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Indianapolis, IN",
-      "rating": 4.3,
-      "website": "https://anthem.com"
-    },
-    {
-      "id": 18,
-      "name": "Aetna",
-      "logo": "https://img.logo.dev/aetna.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Hartford, CT",
-      "rating": 4.3,
-      "website": "https://aetna.com"
-    },
-    {
-      "id": 19,
-      "name": "Kaiser Permanente",
-      "logo": "https://img.logo.dev/kp.org?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "Oakland, CA",
-      "rating": 4.5,
-      "website": "https://kp.org"
-    },
-    {
-      "id": 20,
-      "name": "Guardian Life",
-      "logo": "https://img.logo.dev/guardianlife.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life", "Health"],
-      "headquarters": "New York, NY",
-      "rating": 4.2,
-      "website": "https://guardianlife.com"
-    },
-    {
-      "id": 21,
-      "name": "Hartford",
-      "logo": "https://img.logo.dev/thehartford.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Hartford, CT",
-      "rating": 4.2,
-      "website": "https://thehartford.com"
-    },
-    {
-      "id": 22,
-      "name": "Erie Insurance",
-      "logo": "https://img.logo.dev/erieinsurance.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Erie, PA",
-      "rating": 4.2,
-      "website": "https://erieinsurance.com"
-    },
-    {
-      "id": 23,
-      "name": "Auto-Owners Insurance",
-      "logo": "https://img.logo.dev/auto-owners.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Lansing, MI",
-      "rating": 4.2,
-      "website": "https://auto-owners.com"
-    },
-    {
-      "id": 24,
-      "name": "CNA Financial",
-      "logo": "https://img.logo.dev/cna.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Chicago, IL",
-      "rating": 4.2,
-      "website": "https://cna.com"
-    },
-    {
-      "id": 25,
-      "name": "Assurant",
-      "logo": "https://img.logo.dev/assurant.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "New York, NY",
-      "rating": 4.2,
-      "website": "https://assurant.com"
-    },
-    {
-      "id": 26,
-      "name": "Unum",
-      "logo": "https://img.logo.dev/unum.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Chattanooga, TN",
-      "rating": 4.2,
-      "website": "https://unum.com"
-    },
-    {
-      "id": 27,
-      "name": "Principal Financial Group",
-      "logo": "https://img.logo.dev/principal.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Des Moines, IA",
-      "rating": 4.2,
-      "website": "https://principal.com"
-    },
-    {
-      "id": 28,
-      "name": "MassMutual",
-      "logo": "https://img.logo.dev/massmutual.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Springfield, MA",
-      "rating": 4.2,
-      "website": "https://massmutual.com"
-    },
-    {
-      "id": 29,
-      "name": "New York Life",
-      "logo": "https://img.logo.dev/newyorklife.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "New York, NY",
-      "rating": 4.2,
-      "website": "https://newyorklife.com"
-    },
-    {
-      "id": 30,
-      "name": "Lincoln Financial",
-      "logo": "https://img.logo.dev/lincolnfinancial.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Radnor, PA",
-      "rating": 4.2,
-      "website": "https://lincolnfinancial.com"
-    },
-    {
-      "id": 31,
-      "name": "Protective Life",
-      "logo": "https://img.logo.dev/protective.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Birmingham, AL",
-      "rating": 4.2,
-      "website": "https://protective.com"
-    },
-    {
-      "id": 32,
-      "name": "Brighthouse Financial",
-      "logo": "https://img.logo.dev/brighthousefinancial.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Charlotte, NC",
-      "rating": 4.2,
-      "website": "https://brighthousefinancial.com"
-    },
-    {
-      "id": 33,
-      "name": "Pacific Life",
-      "logo": "https://img.logo.dev/pacificlife.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Newport Beach, CA",
-      "rating": 4.2,
-      "website": "https://pacificlife.com"
-    },
-    {
-      "id": 34,
-      "name": "Transamerica",
-      "logo": "https://img.logo.dev/transamerica.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Cedar Rapids, IA",
-      "rating": 4.2,
-      "website": "https://transamerica.com"
-    },
-    {
-      "id": 35,
-      "name": "Zurich Insurance",
-      "logo": "https://img.logo.dev/zurich.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Zurich, Switzerland",
-      "rating": 4.2,
-      "website": "https://zurich.com"
-    },
-    {
-      "id": 36,
-      "name": "AXA",
-      "logo": "https://img.logo.dev/axa.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Paris, France",
-      "rating": 4.2,
-      "website": "https://axa.com"
-    },
-    {
-      "id": 37,
-      "name": "Allianz",
-      "logo": "https://img.logo.dev/allianz.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Munich, Germany",
-      "rating": 4.2,
-      "website": "https://allianz.com"
-    },
-    {
-      "id": 38,
-      "name": "Berkshire Hathaway Insurance",
-      "logo": "https://img.logo.dev/bhspecialty.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Boston, MA",
-      "rating": 4.2,
-      "website": "https://bhspecialty.com"
-    },
-    {
-      "id": 39,
-      "name": "Markel",
-      "logo": "https://img.logo.dev/markel.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "Richmond, VA",
-      "rating": 4.2,
-      "website": "https://markel.com"
-    },
-    {
-      "id": 40,
-      "name": "Sompo International",
-      "logo": "https://img.logo.dev/sompo-intl.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home", "Life"],
-      "headquarters": "New York, NY",
-      "rating": 4.2,
-      "website": "https://sompo-intl.com"
-    },
-    {
-      "id": 41,
-      "name": "Regional Insurance Group 41",
-      "logo": "https://img.logo.dev/regionalinsurer41.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer41.com"
-    },
-    {
-      "id": 42,
-      "name": "Regional Insurance Group 42",
-      "logo": "https://img.logo.dev/regionalinsurer42.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer42.com"
-    },
-    {
-      "id": 43,
-      "name": "Regional Insurance Group 43",
-      "logo": "https://img.logo.dev/regionalinsurer43.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer43.com"
-    },
-    {
-      "id": 44,
-      "name": "Regional Insurance Group 44",
-      "logo": "https://img.logo.dev/regionalinsurer44.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer44.com"
-    },
-    {
-      "id": 45,
-      "name": "Regional Insurance Group 45",
-      "logo": "https://img.logo.dev/regionalinsurer45.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer45.com"
-    },
-    {
-      "id": 46,
-      "name": "Regional Insurance Group 46",
-      "logo": "https://img.logo.dev/regionalinsurer46.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer46.com"
-    },
-    {
-      "id": 47,
-      "name": "Regional Insurance Group 47",
-      "logo": "https://img.logo.dev/regionalinsurer47.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer47.com"
-    },
-    {
-      "id": 48,
-      "name": "Regional Insurance Group 48",
-      "logo": "https://img.logo.dev/regionalinsurer48.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer48.com"
-    },
-    {
-      "id": 49,
-      "name": "Regional Insurance Group 49",
-      "logo": "https://img.logo.dev/regionalinsurer49.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer49.com"
-    },
-    {
-      "id": 50,
-      "name": "Regional Insurance Group 50",
-      "logo": "https://img.logo.dev/regionalinsurer50.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer50.com"
-    },
-    {
-      "id": 51,
-      "name": "Regional Insurance Group 51",
-      "logo": "https://img.logo.dev/regionalinsurer51.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer51.com"
-    },
-    {
-      "id": 52,
-      "name": "Regional Insurance Group 52",
-      "logo": "https://img.logo.dev/regionalinsurer52.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer52.com"
-    },
-    {
-      "id": 53,
-      "name": "Regional Insurance Group 53",
-      "logo": "https://img.logo.dev/regionalinsurer53.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer53.com"
-    },
-    {
-      "id": 54,
-      "name": "Regional Insurance Group 54",
-      "logo": "https://img.logo.dev/regionalinsurer54.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer54.com"
-    },
-    {
-      "id": 55,
-      "name": "Regional Insurance Group 55",
-      "logo": "https://img.logo.dev/regionalinsurer55.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer55.com"
-    },
-    {
-      "id": 56,
-      "name": "Regional Insurance Group 56",
-      "logo": "https://img.logo.dev/regionalinsurer56.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer56.com"
-    },
-    {
-      "id": 57,
-      "name": "Regional Insurance Group 57",
-      "logo": "https://img.logo.dev/regionalinsurer57.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer57.com"
-    },
-    {
-      "id": 58,
-      "name": "Regional Insurance Group 58",
-      "logo": "https://img.logo.dev/regionalinsurer58.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer58.com"
-    },
-    {
-      "id": 59,
-      "name": "Regional Insurance Group 59",
-      "logo": "https://img.logo.dev/regionalinsurer59.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer59.com"
-    },
-    {
-      "id": 60,
-      "name": "Regional Insurance Group 60",
-      "logo": "https://img.logo.dev/regionalinsurer60.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer60.com"
-    },
-    {
-      "id": 61,
-      "name": "Regional Insurance Group 61",
-      "logo": "https://img.logo.dev/regionalinsurer61.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer61.com"
-    },
-    {
-      "id": 62,
-      "name": "Regional Insurance Group 62",
-      "logo": "https://img.logo.dev/regionalinsurer62.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer62.com"
-    },
-    {
-      "id": 63,
-      "name": "Regional Insurance Group 63",
-      "logo": "https://img.logo.dev/regionalinsurer63.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer63.com"
-    },
-    {
-      "id": 64,
-      "name": "Regional Insurance Group 64",
-      "logo": "https://img.logo.dev/regionalinsurer64.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer64.com"
-    },
-    {
-      "id": 65,
-      "name": "Regional Insurance Group 65",
-      "logo": "https://img.logo.dev/regionalinsurer65.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer65.com"
-    },
-    {
-      "id": 66,
-      "name": "Regional Insurance Group 66",
-      "logo": "https://img.logo.dev/regionalinsurer66.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer66.com"
-    },
-    {
-      "id": 67,
-      "name": "Regional Insurance Group 67",
-      "logo": "https://img.logo.dev/regionalinsurer67.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer67.com"
-    },
-    {
-      "id": 68,
-      "name": "Regional Insurance Group 68",
-      "logo": "https://img.logo.dev/regionalinsurer68.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer68.com"
-    },
-    {
-      "id": 69,
-      "name": "Regional Insurance Group 69",
-      "logo": "https://img.logo.dev/regionalinsurer69.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer69.com"
-    },
-    {
-      "id": 70,
-      "name": "Regional Insurance Group 70",
-      "logo": "https://img.logo.dev/regionalinsurer70.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer70.com"
-    },
-    {
-      "id": 71,
-      "name": "Regional Insurance Group 71",
-      "logo": "https://img.logo.dev/regionalinsurer71.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer71.com"
-    },
-    {
-      "id": 72,
-      "name": "Regional Insurance Group 72",
-      "logo": "https://img.logo.dev/regionalinsurer72.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer72.com"
-    },
-    {
-      "id": 73,
-      "name": "Regional Insurance Group 73",
-      "logo": "https://img.logo.dev/regionalinsurer73.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer73.com"
-    },
-    {
-      "id": 74,
-      "name": "Regional Insurance Group 74",
-      "logo": "https://img.logo.dev/regionalinsurer74.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer74.com"
-    },
-    {
-      "id": 75,
-      "name": "Regional Insurance Group 75",
-      "logo": "https://img.logo.dev/regionalinsurer75.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer75.com"
-    },
-    {
-      "id": 76,
-      "name": "Regional Insurance Group 76",
-      "logo": "https://img.logo.dev/regionalinsurer76.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer76.com"
-    },
-    {
-      "id": 77,
-      "name": "Regional Insurance Group 77",
-      "logo": "https://img.logo.dev/regionalinsurer77.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer77.com"
-    },
-    {
-      "id": 78,
-      "name": "Regional Insurance Group 78",
-      "logo": "https://img.logo.dev/regionalinsurer78.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer78.com"
-    },
-    {
-      "id": 79,
-      "name": "Regional Insurance Group 79",
-      "logo": "https://img.logo.dev/regionalinsurer79.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer79.com"
-    },
-    {
-      "id": 80,
-      "name": "Regional Insurance Group 80",
-      "logo": "https://img.logo.dev/regionalinsurer80.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer80.com"
-    },
-    {
-      "id": 81,
-      "name": "Regional Insurance Group 81",
-      "logo": "https://img.logo.dev/regionalinsurer81.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer81.com"
-    },
-    {
-      "id": 82,
-      "name": "Regional Insurance Group 82",
-      "logo": "https://img.logo.dev/regionalinsurer82.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer82.com"
-    },
-    {
-      "id": 83,
-      "name": "Regional Insurance Group 83",
-      "logo": "https://img.logo.dev/regionalinsurer83.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer83.com"
-    },
-    {
-      "id": 84,
-      "name": "Regional Insurance Group 84",
-      "logo": "https://img.logo.dev/regionalinsurer84.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer84.com"
-    },
-    {
-      "id": 85,
-      "name": "Regional Insurance Group 85",
-      "logo": "https://img.logo.dev/regionalinsurer85.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer85.com"
-    },
-    {
-      "id": 86,
-      "name": "Regional Insurance Group 86",
-      "logo": "https://img.logo.dev/regionalinsurer86.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer86.com"
-    },
-    {
-      "id": 87,
-      "name": "Regional Insurance Group 87",
-      "logo": "https://img.logo.dev/regionalinsurer87.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer87.com"
-    },
-    {
-      "id": 88,
-      "name": "Regional Insurance Group 88",
-      "logo": "https://img.logo.dev/regionalinsurer88.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer88.com"
-    },
-    {
-      "id": 89,
-      "name": "Regional Insurance Group 89",
-      "logo": "https://img.logo.dev/regionalinsurer89.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer89.com"
-    },
-    {
-      "id": 90,
-      "name": "Regional Insurance Group 90",
-      "logo": "https://img.logo.dev/regionalinsurer90.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer90.com"
-    },
-    {
-      "id": 91,
-      "name": "Regional Insurance Group 91",
-      "logo": "https://img.logo.dev/regionalinsurer91.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer91.com"
-    },
-    {
-      "id": 92,
-      "name": "Regional Insurance Group 92",
-      "logo": "https://img.logo.dev/regionalinsurer92.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer92.com"
-    },
-    {
-      "id": 93,
-      "name": "Regional Insurance Group 93",
-      "logo": "https://img.logo.dev/regionalinsurer93.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer93.com"
-    },
-    {
-      "id": 94,
-      "name": "Regional Insurance Group 94",
-      "logo": "https://img.logo.dev/regionalinsurer94.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer94.com"
-    },
-    {
-      "id": 95,
-      "name": "Regional Insurance Group 95",
-      "logo": "https://img.logo.dev/regionalinsurer95.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer95.com"
-    },
-    {
-      "id": 96,
-      "name": "Regional Insurance Group 96",
-      "logo": "https://img.logo.dev/regionalinsurer96.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer96.com"
-    },
-    {
-      "id": 97,
-      "name": "Regional Insurance Group 97",
-      "logo": "https://img.logo.dev/regionalinsurer97.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer97.com"
-    },
-    {
-      "id": 98,
-      "name": "Regional Insurance Group 98",
-      "logo": "https://img.logo.dev/regionalinsurer98.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer98.com"
-    },
-    {
-      "id": 99,
-      "name": "Regional Insurance Group 99",
-      "logo": "https://img.logo.dev/regionalinsurer99.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer99.com"
-    },
-    {
-      "id": 100,
-      "name": "Regional Insurance Group 100",
-      "logo": "https://img.logo.dev/regionalinsurer100.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
-      "insurance_types": ["Auto", "Home"],
-      "headquarters": "United States",
-      "rating": 4.0,
-      "website": "https://regionalinsurer100.com"
-    }
-  ]
-}
+[
+  {
+    "name": "State Farm",
+    "logo": "https://img.logo.dev/statefarm.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.statefarm.com",
+    "category": "Property & Casualty",
+    "description": "The largest property and casualty insurance provider in the U.S., known for its extensive agent network.",
+    "rating": "A++ (Superior)",
+    "founded": 1922,
+    "headquarters": "Bloomington, Illinois"
+  },
+  {
+    "name": "Progressive",
+    "logo": "https://img.logo.dev/progressive.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.progressive.com",
+    "category": "Auto & Home",
+    "description": "A leader in telematics and digital-first insurance, and a top auto insurer in the U.S.",
+    "rating": "A+ (Superior)",
+    "founded": 1937,
+    "headquarters": "Mayfield Village, Ohio"
+  },
+  {
+    "name": "GEICO",
+    "logo": "https://img.logo.dev/geico.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.geico.com",
+    "category": "Auto",
+    "description": "A subsidiary of Berkshire Hathaway, famous for its direct-to-consumer model and the Geico Gecko.",
+    "rating": "A++ (Superior)",
+    "founded": 1936,
+    "headquarters": "Chevy Chase, Maryland"
+  },
+  {
+    "name": "UnitedHealth Group",
+    "logo": "https://img.logo.dev/unitedhealthgroup.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.unitedhealthgroup.com",
+    "category": "Health",
+    "description": "The world's largest healthcare company by revenue, offering diversified health and well-being services.",
+    "rating": "A (Excellent)",
+    "founded": 1977,
+    "headquarters": "Minnetonka, Minnesota"
+  },
+  {
+    "name": "Liberty Mutual",
+    "logo": "https://img.logo.dev/libertymutual.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.libertymutual.com",
+    "category": "Property & Casualty",
+    "description": "A global insurer providing a wide range of property and casualty, health, and life insurance products.",
+    "rating": "A (Excellent)",
+    "founded": 1912,
+    "headquarters": "Boston, Massachusetts"
+  },
+  {
+    "name": "MetLife",
+    "logo": "https://img.logo.dev/metlife.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.metlife.com",
+    "category": "Life & Employee Benefits",
+    "description": "A global provider of life insurance, annuities, employee benefits, and asset management.",
+    "rating": "A+ (Superior)",
+    "founded": 1868,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "name": "Aetna (CVS Health)",
+    "logo": "https://img.logo.dev/aetna.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.aetna.com",
+    "category": "Health",
+    "description": "A major health insurer integrated with CVS Health's pharmacy and clinic network.",
+    "rating": "A (Excellent)",
+    "founded": 1853,
+    "headquarters": "Hartford, Connecticut"
+  },
+  {
+    "name": "Travelers",
+    "logo": "https://img.logo.dev/travelers.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.travelers.com",
+    "category": "Commercial & Personal P&C",
+    "description": "One of the oldest U.S. insurers, a component of the Dow Jones Industrial Average.",
+    "rating": "A++ (Superior)",
+    "founded": 1853,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "name": "Allstate",
+    "logo": "https://img.logo.dev/allstate.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.allstate.com",
+    "category": "Personal Lines",
+    "description": "A major American insurer known for its 'Good Hands' slogan and broad range of personal products.",
+    "rating": "A+ (Superior)",
+    "founded": 1931,
+    "headquarters": "Northbrook, Illinois"
+  },
+  {
+    "name": "Prudential Financial",
+    "logo": "https://img.logo.dev/prudential.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.prudential.com",
+    "category": "Life & Investment",
+    "description": "A leader in life insurance and investment management with the iconic Rock of Gibraltar logo.",
+    "rating": "A+ (Superior)",
+    "founded": 1875,
+    "headquarters": "Newark, New Jersey"
+  },
+  {
+    "name": "Humana",
+    "logo": "https://img.logo.dev/humana.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.humana.com",
+    "category": "Health",
+    "description": "Specializes in Medicare Advantage and senior-focused health insurance plans.",
+    "rating": "A- (Excellent)",
+    "founded": 1961,
+    "headquarters": "Louisville, Kentucky"
+  },
+  {
+    "name": "Nationwide",
+    "logo": "https://img.logo.dev/nationwide.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.nationwide.com",
+    "category": "Mutual Diversified",
+    "description": "A large mutual insurance and financial services group based in the U.S.",
+    "rating": "A+ (Superior)",
+    "founded": 1925,
+    "headquarters": "Columbus, Ohio"
+  },
+  {
+    "name": "The Hartford",
+    "logo": "https://img.logo.dev/thehartford.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.thehartford.com",
+    "category": "Commercial & Workers Comp",
+    "description": "A Fortune 500 company known for investment and insurance services, particularly for small businesses.",
+    "rating": "A+ (Superior)",
+    "founded": 1810,
+    "headquarters": "Hartford, Connecticut"
+  },
+  {
+    "name": "Cigna",
+    "logo": "https://img.logo.dev/cigna.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.cigna.com",
+    "category": "Health",
+    "description": "Global health service company providing insurance and related products through employers.",
+    "rating": "A (Excellent)",
+    "founded": 1982,
+    "headquarters": "Bloomfield, Connecticut"
+  },
+  {
+    "name": "Elevance Health (Anthem)",
+    "logo": "https://img.logo.dev/elevancehealth.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.elevancehealth.com",
+    "category": "Health",
+    "description": "Formerly Anthem, this is the largest for-profit managed health care company in the Blue Cross Blue Shield Association.",
+    "rating": "A (Excellent)",
+    "founded": 2004,
+    "headquarters": "Indianapolis, Indiana"
+  },
+  {
+    "name": "USAA",
+    "logo": "https://img.logo.dev/usaa.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.usaa.com",
+    "category": "Military Specialized",
+    "description": "Provides insurance, banking, and investment services exclusively to military members and their families.",
+    "rating": "A++ (Superior)",
+    "founded": 1922,
+    "headquarters": "San Antonio, Texas"
+  },
+  {
+    "name": "Farmers Insurance",
+    "logo": "https://img.logo.dev/farmers.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.farmers.com",
+    "category": "Personal Lines",
+    "description": "A group of companies providing home, auto, and life insurance, as well as financial services.",
+    "rating": "A (Excellent)",
+    "founded": 1928,
+    "headquarters": "Los Angeles, California"
+  },
+  {
+    "name": "American International Group (AIG)",
+    "logo": "https://img.logo.dev/aig.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.aig.com",
+    "category": "Diversified",
+    "description": "A major global insurance corporation with extensive U.S. commercial operations.",
+    "rating": "A (Excellent)",
+    "founded": 1919,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "name": "Kaiser Permanente",
+    "logo": "https://img.logo.dev/kp.org?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.kp.org",
+    "category": "Managed Care",
+    "description": "A unique non-profit healthcare organization that acts as both an insurer and a medical provider.",
+    "rating": "A+ (Superior)",
+    "founded": 1945,
+    "headquarters": "Oakland, California"
+  },
+  {
+    "name": "Lincoln Financial Group",
+    "logo": "https://img.logo.dev/lfg.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.lfg.com",
+    "category": "Life & Retirement",
+    "description": "Fortune 500 company providing life insurance, annuities, and retirement plan services.",
+    "rating": "A (Excellent)",
+    "founded": 1905,
+    "headquarters": "Radnor, Pennsylvania"
+  },
+  {
+    "name": "MassMutual",
+    "logo": "https://img.logo.dev/massmutual.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.massmutual.com",
+    "category": "Life & Mutual",
+    "description": "A major mutual life insurance company serving millions of clients with life, retirement, and investment products.",
+    "rating": "A++ (Superior)",
+    "founded": 1851,
+    "headquarters": "Springfield, Massachusetts"
+  },
+  {
+    "name": "New York Life",
+    "logo": "https://img.logo.dev/newyorklife.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.newyorklife.com",
+    "category": "Life Insurance",
+    "description": "The largest mutual life-insurance company in the United States.",
+    "rating": "A++ (Superior)",
+    "founded": 1845,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "name": "Centene",
+    "logo": "https://img.logo.dev/centene.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.centene.com",
+    "category": "Health (Medicaid focus)",
+    "description": "A multi-line healthcare enterprise that is the largest Medicaid managed care provider in the U.S.",
+    "rating": "A- (Excellent)",
+    "founded": 1984,
+    "headquarters": "St. Louis, Missouri"
+  },
+  {
+    "name": "Molina Healthcare",
+    "logo": "https://img.logo.dev/molinahealthcare.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.molinahealthcare.com",
+    "category": "Health",
+    "description": "Focuses exclusively on government-sponsored healthcare programs including Medicaid and Medicare.",
+    "rating": "A- (Excellent)",
+    "founded": 1980,
+    "headquarters": "Long Beach, California"
+  },
+  {
+    "name": "Erie Insurance",
+    "logo": "https://img.logo.dev/erieinsurance.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.erieinsurance.com",
+    "category": "Personal & Commercial",
+    "description": "A high-ranking U.S. regional insurer known for customer service and stability.",
+    "rating": "A+ (Superior)",
+    "founded": 1925,
+    "headquarters": "Erie, Pennsylvania"
+  },
+  {
+    "name": "Auto-Owners Insurance",
+    "logo": "https://img.logo.dev/auto-owners.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.auto-owners.com",
+    "category": "Personal & Commercial",
+    "description": "A mutual insurance company consistently rated high for claims handling.",
+    "rating": "A++ (Superior)",
+    "founded": 1916,
+    "headquarters": "Lansing, Michigan"
+  },
+  {
+    "name": "CNA Financial",
+    "logo": "https://img.logo.dev/cna.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.cna.com",
+    "category": "Commercial Lines",
+    "description": "One of the largest U.S. commercial property and casualty insurance companies.",
+    "rating": "A (Excellent)",
+    "founded": 1897,
+    "headquarters": "Chicago, Illinois"
+  },
+  {
+    "name": "American Family Insurance",
+    "logo": "https://img.logo.dev/amfam.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.amfam.com",
+    "category": "Personal Lines",
+    "description": "A private mutual company that focuses on property, casualty, and auto insurance.",
+    "rating": "A (Excellent)",
+    "founded": 1927,
+    "headquarters": "Madison, Wisconsin"
+  },
+  {
+    "name": "Guardian Life",
+    "logo": "https://img.logo.dev/guardianlife.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.guardianlife.com",
+    "category": "Life & Dental",
+    "description": "One of the largest mutual life insurance companies in the U.S.",
+    "rating": "A++ (Superior)",
+    "founded": 1860,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "name": "Principal Financial Group",
+    "logo": "https://img.logo.dev/principal.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.principal.com",
+    "category": "Life & Retirement",
+    "description": "A global financial investment management and insurance company based in the U.S.",
+    "rating": "A+ (Superior)",
+    "founded": 1879,
+    "headquarters": "Des Moines, Iowa"
+  },
+  {
+    "name": "Unum",
+    "logo": "https://img.logo.dev/unum.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.unum.com",
+    "category": "Disability & Supplemental",
+    "description": "The market leader in disability insurance and a major provider of financial protection benefits.",
+    "rating": "A (Excellent)",
+    "founded": 1848,
+    "headquarters": "Chattanooga, Tennessee"
+  },
+  {
+    "name": "Hanover Insurance",
+    "logo": "https://img.logo.dev/hanover.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.hanover.com",
+    "category": "Personal & Commercial P&C",
+    "description": "Provides a wide range of property and casualty products through independent agents.",
+    "rating": "A (Excellent)",
+    "founded": 1852,
+    "headquarters": "Worcester, Massachusetts"
+  },
+  {
+    "name": "Markel",
+    "logo": "https://img.logo.dev/markel.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.markel.com",
+    "category": "Specialty Insurance",
+    "description": "Often called a 'mini-Berkshire,' focusing on specialty insurance and diversified investments.",
+    "rating": "A (Excellent)",
+    "founded": 1930,
+    "headquarters": "Richmond, Virginia"
+  },
+  {
+    "name": "Pacific Life",
+    "logo": "https://img.logo.dev/pacificlife.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.pacificlife.com",
+    "category": "Life & Annuities",
+    "description": "Provides a wide range of life insurance products, annuities, and mutual funds.",
+    "rating": "A+ (Superior)",
+    "founded": 1868,
+    "headquarters": "Newport Beach, California"
+  },
+  {
+    "name": "Northwestern Mutual",
+    "logo": "https://img.logo.dev/northwesternmutual.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.northwesternmutual.com",
+    "category": "Life & Wealth Management",
+    "description": "A U.S. financial services mutual organization providing life insurance, financial planning, and wealth management.",
+    "rating": "A++ (Superior)",
+    "founded": 1857,
+    "headquarters": "Milwaukee, Wisconsin"
+  },
+  {
+    "name": "TIAA",
+    "logo": "https://img.logo.dev/tiaa.org?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.tiaa.org",
+    "category": "Life & Retirement",
+    "description": "A leading provider of financial services in the academic, research, medical, cultural and governmental fields.",
+    "rating": "A++ (Superior)",
+    "founded": 1918,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "name": "Aflac",
+    "logo": "https://img.logo.dev/aflac.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.aflac.com",
+    "category": "Supplemental Insurance",
+    "description": "The largest provider of supplemental insurance in the United States, famous for the Aflac Duck.",
+    "rating": "A+ (Superior)",
+    "founded": 1955,
+    "headquarters": "Columbus, Georgia"
+  },
+  {
+    "name": "Mutual of Omaha",
+    "logo": "https://img.logo.dev/mutualofomaha.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.mutualofomaha.com",
+    "category": "Life & Medicare Supplement",
+    "description": "A Fortune 500 mutual insurance and financial services company.",
+    "rating": "A+ (Superior)",
+    "founded": 1909,
+    "headquarters": "Omaha, Nebraska"
+  },
+  {
+    "name": "Globe Life",
+    "logo": "https://img.logo.dev/globelifeinsurance.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.globelifeinsurance.com",
+    "category": "Life & Health",
+    "description": "Provides life and supplemental health insurance primarily to lower-middle to middle-income families.",
+    "rating": "A (Excellent)",
+    "founded": 1900,
+    "headquarters": "McKinney, Texas"
+  },
+  {
+    "name": "Cincinnati Financial",
+    "logo": "https://img.logo.dev/cinfin.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.cinfin.com",
+    "category": "Property & Casualty",
+    "description": "A property casualty insurance group heavily reliant on independent agents for distribution.",
+    "rating": "A+ (Superior)",
+    "founded": 1950,
+    "headquarters": "Fairfield, Ohio"
+  },
+  {
+    "name": "W. R. Berkley",
+    "logo": "https://img.logo.dev/berkley.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.berkley.com",
+    "category": "Commercial P&C",
+    "description": "A Fortune 500 commercial lines property casualty insurance holding company.",
+    "rating": "A+ (Superior)",
+    "founded": 1967,
+    "headquarters": "Greenwich, Connecticut"
+  },
+  {
+    "name": "Amica Mutual Insurance",
+    "logo": "https://img.logo.dev/amica.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.amica.com",
+    "category": "Auto & Home",
+    "description": "The oldest mutual insurer of automobiles in the U.S., consistently highly rated for customer satisfaction.",
+    "rating": "A+ (Superior)",
+    "founded": 1907,
+    "headquarters": "Lincoln, Rhode Island"
+  },
+  {
+    "name": "Jackson Financial",
+    "logo": "https://img.logo.dev/jackson.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.jackson.com",
+    "category": "Annuities & Retirement",
+    "description": "A leading provider of annuities for retail investors in the United States.",
+    "rating": "A (Excellent)",
+    "founded": 1961,
+    "headquarters": "Lansing, Michigan"
+  },
+  {
+    "name": "Voya Financial",
+    "logo": "https://img.logo.dev/voya.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.voya.com",
+    "category": "Retirement & Employee Benefits",
+    "description": "Helps Americans plan, invest, and protect their savings; focused heavily on retirement planning.",
+    "rating": "A (Excellent)",
+    "founded": 1999,
+    "headquarters": "New York City, New York"
+  },
+  {
+    "name": "Thrivent",
+    "logo": "https://img.logo.dev/thrivent.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.thrivent.com",
+    "category": "Life & Wealth Management",
+    "description": "A not-for-profit financial services organization serving Christians with insurance and investments.",
+    "rating": "A++ (Superior)",
+    "founded": 1902,
+    "headquarters": "Minneapolis, Minnesota"
+  },
+  {
+    "name": "Securian Financial",
+    "logo": "https://img.logo.dev/securian.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.securian.com",
+    "category": "Life & Retirement",
+    "description": "Provides insurance, investment, and retirement solutions to individuals and businesses.",
+    "rating": "A+ (Superior)",
+    "founded": 1880,
+    "headquarters": "St. Paul, Minnesota"
+  },
+  {
+    "name": "Sentry Insurance",
+    "logo": "https://img.logo.dev/sentry.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.sentry.com",
+    "category": "Business & Commercial",
+    "description": "A mutual insurance company offering business insurance, life insurance, and annuities.",
+    "rating": "A+ (Superior)",
+    "founded": 1904,
+    "headquarters": "Stevens Point, Wisconsin"
+  },
+  {
+    "name": "Western & Southern Financial Group",
+    "logo": "https://img.logo.dev/westernsouthern.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.westernsouthern.com",
+    "category": "Life & Investments",
+    "description": "A family of financial services companies focusing on life insurance and investment products.",
+    "rating": "A+ (Superior)",
+    "founded": 1888,
+    "headquarters": "Cincinnati, Ohio"
+  },
+  {
+    "name": "CNO Financial Group",
+    "logo": "https://img.logo.dev/cnoinc.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.cnoinc.com",
+    "category": "Life & Health",
+    "description": "Provides life and health insurance, annuities, and financial services to middle-income Americans.",
+    "rating": "A (Excellent)",
+    "founded": 1979,
+    "headquarters": "Carmel, Indiana"
+  },
+  {
+    "name": "Symetra",
+    "logo": "https://img.logo.dev/symetra.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+    "website": "https://www.symetra.com",
+    "category": "Life & Employee Benefits",
+    "description": "Provides employee benefits, annuities, and life insurance products through a national network.",
+    "rating": "A (Excellent)",
+    "founded": 1957,
+    "headquarters": "Bellevue, Washington"
+  }
+]
