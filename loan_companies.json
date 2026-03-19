@@ -1,289 +1,904 @@
 {
   "loan_companies": [
     {
+      "id": 1,
       "name": "Rocket Mortgage",
-      "type": "Mortgage Lender",
-      "website": "https://www.rocketmortgage.com",
-      "logo": "https://logo.clearbit.com/rocketmortgage.com",
-      "loan_types": ["Mortgage", "Refinance", "FHA", "VA"],
-      "headquarters": "Detroit, Michigan"
+      "logo": "https://img.logo.dev/rocketmortgage.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Detroit, MI",
+      "rating": 4.8,
+      "website": "https://rocketmortgage.com"
     },
     {
-      "name": "United Wholesale Mortgage",
-      "type": "Mortgage Lender",
-      "website": "https://www.uwm.com",
-      "logo": "https://logo.clearbit.com/uwm.com",
-      "loan_types": ["Mortgage", "Refinance"],
-      "headquarters": "Pontiac, Michigan"
-    },
-    {
+      "id": 2,
       "name": "LoanDepot",
-      "type": "Mortgage Lender",
-      "website": "https://www.loandepot.com",
-      "logo": "https://logo.clearbit.com/loandepot.com",
-      "loan_types": ["Mortgage", "Refinance", "Personal"],
-      "headquarters": "Irvine, California"
+      "logo": "https://img.logo.dev/loandepot.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Foothill Ranch, CA",
+      "rating": 4.6,
+      "website": "https://loandepot.com"
     },
     {
-      "name": "Better Mortgage",
-      "type": "Online Mortgage",
-      "website": "https://better.com",
-      "logo": "https://logo.clearbit.com/better.com",
-      "loan_types": ["Mortgage", "Refinance"],
-      "headquarters": "New York, NY"
-    },
-    {
+      "id": 3,
       "name": "SoFi",
-      "type": "Fintech Lender",
-      "website": "https://www.sofi.com",
-      "logo": "https://logo.clearbit.com/sofi.com",
+      "logo": "https://img.logo.dev/sofi.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
       "loan_types": ["Personal", "Student", "Mortgage"],
-      "headquarters": "San Francisco, California"
+      "headquarters": "San Francisco, CA",
+      "rating": 4.7,
+      "website": "https://sofi.com"
     },
     {
-      "name": "LightStream",
-      "type": "Personal Loan",
-      "website": "https://www.lightstream.com",
-      "logo": "https://logo.clearbit.com/lightstream.com",
-      "loan_types": ["Personal", "Auto", "Home Improvement"],
-      "headquarters": "Atlanta, Georgia"
-    },
-    {
-      "name": "Marcus by Goldman Sachs",
-      "type": "Personal Loan",
-      "website": "https://www.marcus.com",
-      "logo": "https://logo.clearbit.com/marcus.com",
-      "loan_types": ["Personal", "Debt Consolidation"],
-      "headquarters": "New York, NY"
-    },
-    {
-      "name": "Upstart",
-      "type": "AI Lending Platform",
-      "website": "https://www.upstart.com",
-      "logo": "https://logo.clearbit.com/upstart.com",
-      "loan_types": ["Personal", "Auto"],
-      "headquarters": "San Mateo, California"
-    },
-    {
+      "id": 4,
       "name": "LendingClub",
-      "type": "Peer to Peer Lending",
-      "website": "https://www.lendingclub.com",
-      "logo": "https://logo.clearbit.com/lendingclub.com",
-      "loan_types": ["Personal", "Business"],
-      "headquarters": "San Francisco, California"
-    },
-    {
-      "name": "Prosper",
-      "type": "Peer Lending",
-      "website": "https://www.prosper.com",
-      "logo": "https://logo.clearbit.com/prosper.com",
+      "logo": "https://img.logo.dev/lendingclub.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
       "loan_types": ["Personal"],
-      "headquarters": "San Francisco, California"
-    },
-
-    {
-      "name": "Bank of America",
-      "type": "Bank",
-      "website": "https://www.bankofamerica.com",
-      "logo": "https://logo.clearbit.com/bankofamerica.com",
-      "loan_types": ["Mortgage", "Auto", "Personal"],
-      "headquarters": "Charlotte, North Carolina"
+      "headquarters": "San Francisco, CA",
+      "rating": 4.5,
+      "website": "https://lendingclub.com"
     },
     {
-      "name": "Wells Fargo",
-      "type": "Bank",
-      "website": "https://www.wellsfargo.com",
-      "logo": "https://logo.clearbit.com/wellsfargo.com",
-      "loan_types": ["Mortgage", "Auto", "Personal"],
-      "headquarters": "San Francisco, California"
-    },
-    {
-      "name": "Chase Bank",
-      "type": "Bank",
-      "website": "https://www.chase.com",
-      "logo": "https://logo.clearbit.com/chase.com",
-      "loan_types": ["Mortgage", "Auto", "Personal"],
-      "headquarters": "New York, NY"
-    },
-    {
-      "name": "Citibank",
-      "type": "Bank",
-      "website": "https://www.citi.com",
-      "logo": "https://logo.clearbit.com/citi.com",
-      "loan_types": ["Mortgage", "Personal"],
-      "headquarters": "New York, NY"
-    },
-    {
-      "name": "PNC Bank",
-      "type": "Bank",
-      "website": "https://www.pnc.com",
-      "logo": "https://logo.clearbit.com/pnc.com",
-      "loan_types": ["Mortgage", "Auto", "Personal"],
-      "headquarters": "Pittsburgh, Pennsylvania"
-    },
-
-    {
-      "name": "Discover Personal Loans",
-      "type": "Personal Loan",
-      "website": "https://www.discover.com",
-      "logo": "https://logo.clearbit.com/discover.com",
-      "loan_types": ["Personal"],
-      "headquarters": "Riverwoods, Illinois"
-    },
-    {
-      "name": "Upgrade",
-      "type": "Fintech Lender",
-      "website": "https://www.upgrade.com",
-      "logo": "https://logo.clearbit.com/upgrade.com",
-      "loan_types": ["Personal", "Credit Line"],
-      "headquarters": "San Francisco, California"
-    },
-    {
-      "name": "Avant",
-      "type": "Personal Loan",
-      "website": "https://www.avant.com",
-      "logo": "https://logo.clearbit.com/avant.com",
-      "loan_types": ["Personal"],
-      "headquarters": "Chicago, Illinois"
-    },
-    {
-      "name": "OneMain Financial",
-      "type": "Consumer Loans",
-      "website": "https://www.onemainfinancial.com",
-      "logo": "https://logo.clearbit.com/onemainfinancial.com",
+      "id": 5,
+      "name": "Upstart",
+      "logo": "https://img.logo.dev/upstart.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
       "loan_types": ["Personal", "Auto"],
-      "headquarters": "Evansville, Indiana"
+      "headquarters": "San Mateo, CA",
+      "rating": 4.6,
+      "website": "https://upstart.com"
     },
     {
+      "id": 6,
+      "name": "Discover Personal Loans",
+      "logo": "https://img.logo.dev/discover.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "Riverwoods, IL",
+      "rating": 4.6,
+      "website": "https://discover.com"
+    },
+    {
+      "id": 7,
+      "name": "LightStream",
+      "logo": "https://img.logo.dev/lightstream.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal", "Auto"],
+      "headquarters": "Atlanta, GA",
+      "rating": 4.7,
+      "website": "https://lightstream.com"
+    },
+    {
+      "id": 8,
+      "name": "Avant",
+      "logo": "https://img.logo.dev/avant.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "Chicago, IL",
+      "rating": 4.4,
+      "website": "https://avant.com"
+    },
+    {
+      "id": 9,
+      "name": "Marcus by Goldman Sachs",
+      "logo": "https://img.logo.dev/marcus.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "New York, NY",
+      "rating": 4.7,
+      "website": "https://marcus.com"
+    },
+    {
+      "id": 10,
+      "name": "Upgrade",
+      "logo": "https://img.logo.dev/upgrade.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "San Francisco, CA",
+      "rating": 4.5,
+      "website": "https://upgrade.com"
+    },
+    {
+      "id": 11,
+      "name": "Bank of America",
+      "logo": "https://img.logo.dev/bankofamerica.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Auto", "Personal"],
+      "headquarters": "Charlotte, NC",
+      "rating": 4.5,
+      "website": "https://bankofamerica.com"
+    },
+    {
+      "id": 12,
+      "name": "Wells Fargo",
+      "logo": "https://img.logo.dev/wellsfargo.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Auto", "Personal"],
+      "headquarters": "San Francisco, CA",
+      "rating": 4.3,
+      "website": "https://wellsfargo.com"
+    },
+    {
+      "id": 13,
+      "name": "Chase",
+      "logo": "https://img.logo.dev/chase.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Auto", "Personal"],
+      "headquarters": "New York, NY",
+      "rating": 4.6,
+      "website": "https://chase.com"
+    },
+    {
+      "id": 14,
+      "name": "PNC Bank",
+      "logo": "https://img.logo.dev/pnc.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Auto"],
+      "headquarters": "Pittsburgh, PA",
+      "rating": 4.4,
+      "website": "https://pnc.com"
+    },
+    {
+      "id": 15,
+      "name": "Citibank",
+      "logo": "https://img.logo.dev/citi.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Personal"],
+      "headquarters": "New York, NY",
+      "rating": 4.4,
+      "website": "https://citi.com"
+    },
+    {
+      "id": 16,
+      "name": "Ally Bank",
+      "logo": "https://img.logo.dev/ally.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto", "Personal"],
+      "headquarters": "Detroit, MI",
+      "rating": 4.5,
+      "website": "https://ally.com"
+    },
+    {
+      "id": 17,
+      "name": "Capital One",
+      "logo": "https://img.logo.dev/capitalone.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto", "Personal"],
+      "headquarters": "McLean, VA",
+      "rating": 4.4,
+      "website": "https://capitalone.com"
+    },
+    {
+      "id": 18,
+      "name": "Truist Bank",
+      "logo": "https://img.logo.dev/truist.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Personal"],
+      "headquarters": "Charlotte, NC",
+      "rating": 4.3,
+      "website": "https://truist.com"
+    },
+    {
+      "id": 19,
+      "name": "Fifth Third Bank",
+      "logo": "https://img.logo.dev/53.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Auto"],
+      "headquarters": "Cincinnati, OH",
+      "rating": 4.2,
+      "website": "https://53.com"
+    },
+    {
+      "id": 20,
+      "name": "TD Bank",
+      "logo": "https://img.logo.dev/td.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Personal"],
+      "headquarters": "Toronto, ON",
+      "rating": 4.3,
+      "website": "https://td.com"
+    },
+    {
+      "id": 21,
+      "name": "Santander Bank",
+      "logo": "https://img.logo.dev/santander.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto", "Mortgage"],
+      "headquarters": "Boston, MA",
+      "rating": 4.2,
+      "website": "https://santander.com"
+    },
+    {
+      "id": 22,
+      "name": "Regions Bank",
+      "logo": "https://img.logo.dev/regions.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Auto"],
+      "headquarters": "Birmingham, AL",
+      "rating": 4.2,
+      "website": "https://regions.com"
+    },
+    {
+      "id": 23,
+      "name": "Huntington Bank",
+      "logo": "https://img.logo.dev/huntington.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Auto"],
+      "headquarters": "Columbus, OH",
+      "rating": 4.3,
+      "website": "https://huntington.com"
+    },
+    {
+      "id": 24,
+      "name": "US Bank",
+      "logo": "https://img.logo.dev/usbank.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Auto"],
+      "headquarters": "Minneapolis, MN",
+      "rating": 4.4,
+      "website": "https://usbank.com"
+    },
+    {
+      "id": 25,
+      "name": "Navy Federal Credit Union",
+      "logo": "https://img.logo.dev/navyfederal.org?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Auto"],
+      "headquarters": "Vienna, VA",
+      "rating": 4.8,
+      "website": "https://navyfederal.org"
+    },
+    {
+      "id": 26,
+      "name": "USAA",
+      "logo": "https://img.logo.dev/usaa.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Auto"],
+      "headquarters": "San Antonio, TX",
+      "rating": 4.7,
+      "website": "https://usaa.com"
+    },
+    {
+      "id": 27,
+      "name": "PenFed Credit Union",
+      "logo": "https://img.logo.dev/penfed.org?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Auto"],
+      "headquarters": "McLean, VA",
+      "rating": 4.6,
+      "website": "https://penfed.org"
+    },
+    {
+      "id": 28,
       "name": "Freedom Mortgage",
-      "type": "Mortgage Lender",
-      "website": "https://www.freedommortgage.com",
-      "logo": "https://logo.clearbit.com/freedommortgage.com",
-      "loan_types": ["Mortgage", "Refinance", "VA"],
-      "headquarters": "Mount Laurel, New Jersey"
-    },
-
-    {
-      "name": "Veterans United Home Loans",
-      "type": "VA Mortgage",
-      "website": "https://www.veteransunited.com",
-      "logo": "https://logo.clearbit.com/veteransunited.com",
-      "loan_types": ["VA Loan", "Mortgage"],
-      "headquarters": "Columbia, Missouri"
+      "logo": "https://img.logo.dev/freedommortgage.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Boca Raton, FL",
+      "rating": 4.5,
+      "website": "https://freedommortgage.com"
     },
     {
-      "name": "Guaranteed Rate",
-      "type": "Mortgage Lender",
-      "website": "https://www.rate.com",
-      "logo": "https://logo.clearbit.com/rate.com",
-      "loan_types": ["Mortgage", "Refinance"],
-      "headquarters": "Chicago, Illinois"
-    },
-    {
+      "id": 29,
       "name": "Newrez",
-      "type": "Mortgage Lender",
-      "website": "https://www.newrez.com",
-      "logo": "https://logo.clearbit.com/newrez.com",
-      "loan_types": ["Mortgage", "Refinance"],
-      "headquarters": "Fort Washington, Pennsylvania"
-    },
-    {
-      "name": "Flagstar Bank",
-      "type": "Mortgage Bank",
-      "website": "https://www.flagstar.com",
-      "logo": "https://logo.clearbit.com/flagstar.com",
-      "loan_types": ["Mortgage", "Refinance"],
-      "headquarters": "Troy, Michigan"
-    },
-    {
-      "name": "Caliber Home Loans",
-      "type": "Mortgage Lender",
-      "website": "https://www.caliberhomeloans.com",
-      "logo": "https://logo.clearbit.com/caliberhomeloans.com",
+      "logo": "https://img.logo.dev/newrez.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
       "loan_types": ["Mortgage"],
-      "headquarters": "Dallas, Texas"
-    },
-
-    {
-      "name": "AmeriSave Mortgage",
-      "type": "Mortgage Lender",
-      "website": "https://www.amerisave.com",
-      "logo": "https://logo.clearbit.com/amerisave.com",
-      "loan_types": ["Mortgage", "Refinance"],
-      "headquarters": "Atlanta, Georgia"
+      "headquarters": "Fort Washington, PA",
+      "rating": 4.3,
+      "website": "https://newrez.com"
     },
     {
+      "id": 30,
       "name": "Guild Mortgage",
-      "type": "Mortgage Lender",
-      "website": "https://www.guildmortgage.com",
-      "logo": "https://logo.clearbit.com/guildmortgage.com",
+      "logo": "https://img.logo.dev/guildmortgage.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
       "loan_types": ["Mortgage"],
-      "headquarters": "San Diego, California"
+      "headquarters": "San Diego, CA",
+      "rating": 4.4,
+      "website": "https://guildmortgage.com"
     },
     {
+      "id": 31,
       "name": "Fairway Independent Mortgage",
-      "type": "Mortgage Lender",
-      "website": "https://www.fairwayindependentmc.com",
-      "logo": "https://logo.clearbit.com/fairwayindependentmc.com",
-      "loan_types": ["Mortgage", "Refinance"],
-      "headquarters": "Madison, Wisconsin"
-    },
-    {
-      "name": "CrossCountry Mortgage",
-      "type": "Mortgage Lender",
-      "website": "https://www.crosscountrymortgage.com",
-      "logo": "https://logo.clearbit.com/crosscountrymortgage.com",
+      "logo": "https://img.logo.dev/fairway.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
       "loan_types": ["Mortgage"],
-      "headquarters": "Cleveland, Ohio"
+      "headquarters": "Madison, WI",
+      "rating": 4.6,
+      "website": "https://fairway.com"
     },
     {
+      "id": 32,
+      "name": "Caliber Home Loans",
+      "logo": "https://img.logo.dev/caliberhomeloans.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Dallas, TX",
+      "rating": 4.4,
+      "website": "https://caliberhomeloans.com"
+    },
+    {
+      "id": 33,
+      "name": "Flagstar Bank",
+      "logo": "https://img.logo.dev/flagstar.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Troy, MI",
+      "rating": 4.3,
+      "website": "https://flagstar.com"
+    },
+    {
+      "id": 34,
+      "name": "Better Mortgage",
+      "logo": "https://img.logo.dev/better.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "New York, NY",
+      "rating": 4.5,
+      "website": "https://better.com"
+    },
+    {
+      "id": 35,
+      "name": "AmeriSave Mortgage",
+      "logo": "https://img.logo.dev/amerisave.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Atlanta, GA",
+      "rating": 4.4,
+      "website": "https://amerisave.com"
+    },
+    {
+      "id": 36,
+      "name": "Guaranteed Rate",
+      "logo": "https://img.logo.dev/rate.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Chicago, IL",
+      "rating": 4.6,
+      "website": "https://rate.com"
+    },
+    {
+      "id": 37,
       "name": "Movement Mortgage",
-      "type": "Mortgage Lender",
-      "website": "https://www.movement.com",
-      "logo": "https://logo.clearbit.com/movement.com",
+      "logo": "https://img.logo.dev/movement.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
       "loan_types": ["Mortgage"],
-      "headquarters": "Fort Mill, South Carolina"
-    },
-
-    {
-      "name": "Figure Lending",
-      "type": "Home Equity Loans",
-      "website": "https://www.figure.com",
-      "logo": "https://logo.clearbit.com/figure.com",
-      "loan_types": ["HELOC"],
-      "headquarters": "San Francisco, California"
+      "headquarters": "Indian Land, SC",
+      "rating": 4.5,
+      "website": "https://movement.com"
     },
     {
+      "id": 38,
+      "name": "PrimeLending",
+      "logo": "https://img.logo.dev/primelending.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Dallas, TX",
+      "rating": 4.4,
+      "website": "https://primelending.com"
+    },
+    {
+      "id": 39,
+      "name": "CrossCountry Mortgage",
+      "logo": "https://img.logo.dev/crosscountrymortgage.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Cleveland, OH",
+      "rating": 4.5,
+      "website": "https://ccm.com"
+    },
+    {
+      "id": 40,
+      "name": "Veterans United",
+      "logo": "https://img.logo.dev/veteransunited.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Columbia, MO",
+      "rating": 4.8,
+      "website": "https://veteransunited.com"
+    },
+    {
+      "id": 41,
+      "name": "Mr. Cooper",
+      "logo": "https://img.logo.dev/mrcooper.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Dallas, TX",
+      "rating": 4.3,
+      "website": "https://mrcooper.com"
+    },
+    {
+      "id": 42,
+      "name": "PHH Mortgage",
+      "logo": "https://img.logo.dev/phhmortgage.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Mount Laurel, NJ",
+      "rating": 4.2,
+      "website": "https://phhmortgage.com"
+    },
+    {
+      "id": 43,
+      "name": "Carrington Mortgage",
+      "logo": "https://img.logo.dev/carringtonmortgage.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Anaheim, CA",
+      "rating": 4.3,
+      "website": "https://carringtonmortgage.com"
+    },
+    {
+      "id": 44,
+      "name": "Home Point Financial",
+      "logo": "https://img.logo.dev/homepoint.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Ann Arbor, MI",
+      "rating": 4.2,
+      "website": "https://homepoint.com"
+    },
+    {
+      "id": 45,
+      "name": "M&T Bank",
+      "logo": "https://img.logo.dev/mtb.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Auto"],
+      "headquarters": "Buffalo, NY",
+      "rating": 4.2,
+      "website": "https://mtb.com"
+    },
+    {
+      "id": 46,
+      "name": "KeyBank",
+      "logo": "https://img.logo.dev/key.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage", "Auto"],
+      "headquarters": "Cleveland, OH",
+      "rating": 4.2,
+      "website": "https://key.com"
+    },
+    {
+      "id": 47,
+      "name": "BMO Harris Bank",
+      "logo": "https://img.logo.dev/bmoharris.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Chicago, IL",
+      "rating": 4.2,
+      "website": "https://bmoharris.com"
+    },
+    {
+      "id": 48,
+      "name": "Citizens Bank",
+      "logo": "https://img.logo.dev/citizensbank.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Providence, RI",
+      "rating": 4.2,
+      "website": "https://citizensbank.com"
+    },
+    {
+      "id": 49,
+      "name": "Comerica Bank",
+      "logo": "https://img.logo.dev/comerica.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Dallas, TX",
+      "rating": 4.1,
+      "website": "https://comerica.com"
+    },
+    {
+      "id": 50,
+      "name": "Synovus Bank",
+      "logo": "https://img.logo.dev/synovus.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Columbus, GA",
+      "rating": 4.1,
+      "website": "https://synovus.com"
+    },
+    {
+      "id": 51,
+      "name": "East West Bank",
+      "logo": "https://img.logo.dev/eastwestbank.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Pasadena, CA",
+      "rating": 4.1,
+      "website": "https://eastwestbank.com"
+    },
+    {
+      "id": 52,
+      "name": "First Horizon Bank",
+      "logo": "https://img.logo.dev/firsthorizon.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Memphis, TN",
+      "rating": 4.1,
+      "website": "https://firsthorizon.com"
+    },
+    {
+      "id": 53,
+      "name": "Webster Bank",
+      "logo": "https://img.logo.dev/websterbank.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Waterbury, CT",
+      "rating": 4.0,
+      "website": "https://websterbank.com"
+    },
+    {
+      "id": 54,
+      "name": "Valley Bank",
+      "logo": "https://img.logo.dev/valley.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Wayne, NJ",
+      "rating": 4.0,
+      "website": "https://valley.com"
+    },
+    {
+      "id": 55,
+      "name": "Zions Bank",
+      "logo": "https://img.logo.dev/zionsbank.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Salt Lake City, UT",
+      "rating": 4.1,
+      "website": "https://zionsbank.com"
+    },
+    {
+      "id": 56,
+      "name": "Old National Bank",
+      "logo": "https://img.logo.dev/oldnational.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Evansville, IN",
+      "rating": 4.0,
+      "website": "https://oldnational.com"
+    },
+    {
+      "id": 57,
+      "name": "Associated Bank",
+      "logo": "https://img.logo.dev/associatedbank.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Mortgage"],
+      "headquarters": "Green Bay, WI",
+      "rating": 4.0,
+      "website": "https://associatedbank.com"
+    },
+    {
+      "id": 58,
+      "name": "Prosper",
+      "logo": "https://img.logo.dev/prosper.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "San Francisco, CA",
+      "rating": 4.4,
+      "website": "https://prosper.com"
+    },
+    {
+      "id": 59,
       "name": "Earnest",
-      "type": "Student Loans",
-      "website": "https://www.earnest.com",
-      "logo": "https://logo.clearbit.com/earnest.com",
-      "loan_types": ["Student", "Refinance"],
-      "headquarters": "San Francisco, California"
+      "logo": "https://img.logo.dev/earnest.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Student", "Personal"],
+      "headquarters": "San Francisco, CA",
+      "rating": 4.5,
+      "website": "https://earnest.com"
     },
     {
+      "id": 60,
       "name": "CommonBond",
-      "type": "Student Loans",
-      "website": "https://www.commonbond.co",
-      "logo": "https://logo.clearbit.com/commonbond.co",
+      "logo": "https://img.logo.dev/commonbond.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
       "loan_types": ["Student"],
-      "headquarters": "New York, NY"
+      "headquarters": "New York, NY",
+      "rating": 4.4,
+      "website": "https://commonbond.com"
     },
     {
+      "id": 61,
       "name": "Splash Financial",
-      "type": "Student Loans",
-      "website": "https://www.splashfinancial.com",
-      "logo": "https://logo.clearbit.com/splashfinancial.com",
+      "logo": "https://img.logo.dev/splashfinancial.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
       "loan_types": ["Student"],
-      "headquarters": "Cleveland, Ohio"
+      "headquarters": "Cleveland, OH",
+      "rating": 4.3,
+      "website": "https://splashfinancial.com"
     },
     {
+      "id": 62,
+      "name": "College Ave",
+      "logo": "https://img.logo.dev/collegeave.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Student"],
+      "headquarters": "Wilmington, DE",
+      "rating": 4.4,
+      "website": "https://collegeave.com"
+    },
+    {
+      "id": 63,
+      "name": "RISLA",
+      "logo": "https://img.logo.dev/risla.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Student"],
+      "headquarters": "Warwick, RI",
+      "rating": 4.3,
+      "website": "https://risla.com"
+    },
+    {
+      "id": 64,
+      "name": "ELFI",
+      "logo": "https://img.logo.dev/elfi.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Student"],
+      "headquarters": "Nashville, TN",
+      "rating": 4.4,
+      "website": "https://elfi.com"
+    },
+    {
+      "id": 65,
       "name": "Credible",
-      "type": "Loan Marketplace",
-      "website": "https://www.credible.com",
-      "logo": "https://logo.clearbit.com/credible.com",
-      "loan_types": ["Personal", "Student", "Mortgage"],
-      "headquarters": "San Francisco, California"
+      "logo": "https://img.logo.dev/credible.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal", "Student"],
+      "headquarters": "San Francisco, CA",
+      "rating": 4.3,
+      "website": "https://credible.com"
+    },
+    {
+      "id": 66,
+      "name": "MoneyLion",
+      "logo": "https://img.logo.dev/moneylion.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "New York, NY",
+      "rating": 4.3,
+      "website": "https://moneylion.com"
+    },
+    {
+      "id": 67,
+      "name": "OppLoans",
+      "logo": "https://img.logo.dev/opploans.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "Chicago, IL",
+      "rating": 4.1,
+      "website": "https://opploans.com"
+    },
+    {
+      "id": 68,
+      "name": "OneMain Financial",
+      "logo": "https://img.logo.dev/onemainfinancial.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "Evansville, IN",
+      "rating": 4.2,
+      "website": "https://onemainfinancial.com"
+    },
+    {
+      "id": 69,
+      "name": "NetCredit",
+      "logo": "https://img.logo.dev/netcredit.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "Chicago, IL",
+      "rating": 4.0,
+      "website": "https://netcredit.com"
+    },
+    {
+      "id": 70,
+      "name": "Best Egg",
+      "logo": "https://img.logo.dev/bestegg.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "Wilmington, DE",
+      "rating": 4.3,
+      "website": "https://bestegg.com"
+    },
+    {
+      "id": 71,
+      "name": "Happy Money",
+      "logo": "https://img.logo.dev/happymoney.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "Tustin, CA",
+      "rating": 4.2,
+      "website": "https://happymoney.com"
+    },
+    {
+      "id": 72,
+      "name": "LendKey",
+      "logo": "https://img.logo.dev/lendkey.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Student", "Personal"],
+      "headquarters": "New York, NY",
+      "rating": 4.2,
+      "website": "https://lendkey.com"
+    },
+    {
+      "id": 73,
+      "name": "Funding Circle",
+      "logo": "https://img.logo.dev/fundingcircle.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Business"],
+      "headquarters": "San Francisco, CA",
+      "rating": 4.2,
+      "website": "https://fundingcircle.com"
+    },
+    {
+      "id": 74,
+      "name": "BlueVine",
+      "logo": "https://img.logo.dev/bluevine.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Business"],
+      "headquarters": "Redwood City, CA",
+      "rating": 4.2,
+      "website": "https://bluevine.com"
+    },
+    {
+      "id": 75,
+      "name": "Kabbage",
+      "logo": "https://img.logo.dev/kabbage.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Business"],
+      "headquarters": "Atlanta, GA",
+      "rating": 4.1,
+      "website": "https://kabbage.com"
+    },
+    {
+      "id": 76,
+      "name": "OnDeck",
+      "logo": "https://img.logo.dev/ondeck.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Business"],
+      "headquarters": "New York, NY",
+      "rating": 4.1,
+      "website": "https://ondeck.com"
+    },
+    {
+      "id": 77,
+      "name": "Fundbox",
+      "logo": "https://img.logo.dev/fundbox.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Business"],
+      "headquarters": "San Francisco, CA",
+      "rating": 4.1,
+      "website": "https://fundbox.com"
+    },
+    {
+      "id": 78,
+      "name": "StreetShares",
+      "logo": "https://img.logo.dev/streetshares.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Business"],
+      "headquarters": "Reston, VA",
+      "rating": 4.0,
+      "website": "https://streetshares.com"
+    },
+    {
+      "id": 79,
+      "name": "Lendio",
+      "logo": "https://img.logo.dev/lendio.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Business"],
+      "headquarters": "Lehi, UT",
+      "rating": 4.1,
+      "website": "https://lendio.com"
+    },
+    {
+      "id": 80,
+      "name": "Credibly",
+      "logo": "https://img.logo.dev/credibly.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Business"],
+      "headquarters": "Southfield, MI",
+      "rating": 4.0,
+      "website": "https://credibly.com"
+    },
+    {
+      "id": 81,
+      "name": "Rapid Finance",
+      "logo": "https://img.logo.dev/rapidfinance.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Business"],
+      "headquarters": "Bethesda, MD",
+      "rating": 4.0,
+      "website": "https://rapidfinance.com"
+    },
+    {
+      "id": 82,
+      "name": "National Funding",
+      "logo": "https://img.logo.dev/nationalfunding.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Business"],
+      "headquarters": "San Diego, CA",
+      "rating": 4.1,
+      "website": "https://nationalfunding.com"
+    },
+    {
+      "id": 83,
+      "name": "Biz2Credit",
+      "logo": "https://img.logo.dev/biz2credit.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Business"],
+      "headquarters": "New York, NY",
+      "rating": 4.0,
+      "website": "https://biz2credit.com"
+    },
+    {
+      "id": 84,
+      "name": "Tally",
+      "logo": "https://img.logo.dev/meettally.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "San Francisco, CA",
+      "rating": 4.3,
+      "website": "https://meettally.com"
+    },
+    {
+      "id": 85,
+      "name": "Fig Tech",
+      "logo": "https://img.logo.dev/fig.co?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "Houston, TX",
+      "rating": 4.1,
+      "website": "https://fig.co"
+    },
+    {
+      "id": 86,
+      "name": "Self Financial",
+      "logo": "https://img.logo.dev/self.inc?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "Austin, TX",
+      "rating": 4.2,
+      "website": "https://self.inc"
+    },
+    {
+      "id": 87,
+      "name": "CreditStrong",
+      "logo": "https://img.logo.dev/creditstrong.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "Austin, TX",
+      "rating": 4.1,
+      "website": "https://creditstrong.com"
+    },
+    {
+      "id": 88,
+      "name": "SeedFi",
+      "logo": "https://img.logo.dev/seedfi.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Personal"],
+      "headquarters": "San Francisco, CA",
+      "rating": 4.0,
+      "website": "https://seedfi.com"
+    },
+    {
+      "id": 89,
+      "name": "Vroom",
+      "logo": "https://img.logo.dev/vroom.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto"],
+      "headquarters": "New York, NY",
+      "rating": 4.1,
+      "website": "https://vroom.com"
+    },
+    {
+      "id": 90,
+      "name": "Carvana",
+      "logo": "https://img.logo.dev/carvana.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto"],
+      "headquarters": "Tempe, AZ",
+      "rating": 4.3,
+      "website": "https://carvana.com"
+    },
+    {
+      "id": 91,
+      "name": "Toyota Financial Services",
+      "logo": "https://img.logo.dev/toyotafinancial.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto"],
+      "headquarters": "Plano, TX",
+      "rating": 4.1,
+      "website": "https://toyotafinancial.com"
+    },
+    {
+      "id": 92,
+      "name": "Honda Financial Services",
+      "logo": "https://img.logo.dev/hondafinancialservices.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto"],
+      "headquarters": "Torrance, CA",
+      "rating": 4.1,
+      "website": "https://hondafinancialservices.com"
+    },
+    {
+      "id": 93,
+      "name": "Ford Credit",
+      "logo": "https://img.logo.dev/ford.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto"],
+      "headquarters": "Dearborn, MI",
+      "rating": 4.1,
+      "website": "https://ford.com"
+    },
+    {
+      "id": 94,
+      "name": "GM Financial",
+      "logo": "https://img.logo.dev/gmfinancial.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto"],
+      "headquarters": "Fort Worth, TX",
+      "rating": 4.1,
+      "website": "https://gmfinancial.com"
+    },
+    {
+      "id": 95,
+      "name": "Kia Finance",
+      "logo": "https://img.logo.dev/kiafinance.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto"],
+      "headquarters": "Irvine, CA",
+      "rating": 4.0,
+      "website": "https://kiafinance.com"
+    },
+    {
+      "id": 96,
+      "name": "Hyundai Capital",
+      "logo": "https://img.logo.dev/hyundaicapitalamerica.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto"],
+      "headquarters": "Irvine, CA",
+      "rating": 4.0,
+      "website": "https://hyundaicapital.com"
+    },
+    {
+      "id": 97,
+      "name": "Chase Auto",
+      "logo": "https://img.logo.dev/chase.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto"],
+      "headquarters": "New York, NY",
+      "rating": 4.2,
+      "website": "https://chase.com"
+    },
+    {
+      "id": 98,
+      "name": "Capital One Auto Navigator",
+      "logo": "https://img.logo.dev/capitalone.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto"],
+      "headquarters": "McLean, VA",
+      "rating": 4.3,
+      "website": "https://capitalone.com"
+    },
+    {
+      "id": 99,
+      "name": "PNC Auto Loans",
+      "logo": "https://img.logo.dev/pnc.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto"],
+      "headquarters": "Pittsburgh, PA",
+      "rating": 4.1,
+      "website": "https://pnc.com"
+    },
+    {
+      "id": 100,
+      "name": "Santander Auto",
+      "logo": "https://img.logo.dev/santander.com?token=pk_VxNZoxtgRU2cBcDD1x0IqA",
+      "loan_types": ["Auto"],
+      "headquarters": "Dallas, TX",
+      "rating": 4.0,
+      "website": "https://santander.com"
     }
   ]
 }
